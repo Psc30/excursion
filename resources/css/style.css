@@ -6,12 +6,61 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+h2 + p {
+    font-family: Verdana;
+    font-size: 21px;
+    color: gray;
+}
+
 a {
     color:aquamarine;
     font-size: 16px;
 }
 
+/* Basic layout styles */
 body {
+    margin: 0;
     background-color: black;
     text-align: center;
+}
+
+/* Main layout container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Video and images centered */
+video,
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Download link style */
+.download-link {
+    display: inline-block;
+    color: aquamarine;
+    text-decoration: underline;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* Footer aligned to the right within the centered container */
+.footer-text {
+    text-align: right;
+    color: gray;
+    margin-top: 40px;
 }
