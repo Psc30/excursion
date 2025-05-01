@@ -12,7 +12,7 @@ https://github.com/Psc30/excursion.git
 
 ## Usage
 
-Open 'index.html' in your web browswer to view the Excursion landing page. Explore the features and design as shown in the Codecademy project.
+Open 'index.html' in your web browser to view the Excursion landing page. Explore the features and design as shown in the Codecademy project.
 
 ## Credits
 
